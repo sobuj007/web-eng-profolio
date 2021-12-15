@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Port</title>
+
+</head>
+
+<body class="port_header_area">
+    <header>
+
+
+      
+            <div class="container"> 
+              
+                <div class="heads_items">
+                    <div class="logo_area">
+                        <h2>Logo <span>Img</span></h2>
+                    </div>
+                    <div class="menu_area">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Portfolio</a></li>
+                        
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+           
+        </div>
+
+
+
+    </header>
+ 
+      <section>
+        <div class="news-area">
+            <div class="container">
+                <div class="titles_area">
+                    <h4>News</h4>
+                <h2>Check out the latest breaking news headlines on development</h2>
+                </div>
+                <div class="items_area" id="items">
+                 
+                    <div class="gallery_item">
+                        <img src="img/buzgari.png" alt="">
+                        <h3>Buzzgari </h3>
+                        <p>Online Bus tikicting application</p>
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/bdj.png" alt="">
+                        <h3>Bangladesh prison </h3>
+                        <p>Online based Pass Application</p>
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/FixNinja.png" alt="">
+                        <h3>Fix-Ninja </h3>
+                        <p>Online based Services Provider</p>
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/foodcreaft.png" alt="">
+                        <h3>Logo Food Creaft </h3>
+                        <p>Resturant </p>
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/Untitled-3.png" alt="">
+                        <h3>Logo Gaming </h3>
+                        <p>Gaming Logo  </p>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+      </section>
+ 
+<script>
+   
+loping();
+  function loping(){
+    setTimeout(() => { 
+        data("Portfolio");
+    
+    }, 4000);
+    setTimeout(() => { 
+        data("Mobile");
+    console.log("mobile");
+    }, 4000);
+    setTimeout(() => { 
+        data("Application");
+    console.log("Application");
+    }, 6000);
+    setTimeout(() => { 
+        data("Developer");
+    console.log("Application");
+    }, 8000);
+    
+    setTimeout(() => { 
+        loping()
+    }, 8000);
+    
+  }
+ 
+   
+   
+    
+  function data(msg){
+    setTimeout(() => { document.getElementById('expartis').innerText=msg}, 2000);
+  }
+
+
+//console.log("Goodbye!");
+</script>
+</body>
+
+</html>

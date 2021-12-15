@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Port</title>
+
+</head>
+
+<body class="port_header_area">
+    <header>
+
+
+      
+            <div class="container"> 
+              
+                <div class="heads_items">
+                    <div class="logo_area">
+                        <h2>Logo <span>Img</span></h2>
+                    </div>
+                    <div class="menu_area">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Portfolio</a></li>
+                          
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+           
+        </div>
+
+
+
+    </header>
+ 
+      <section>
+        <div class="services_area">
+
+           
+                
+                <div class="container">
+                <div class="content">
+                    <div class="services_content">
+                        <div class="singel_item" id="web">
+                            <a  onclick="web()">Web Development</a>
+                        </div>
+                        <div class="singel_item" id="app">
+                            <a  onclick="app()">Mobile Application Development</a>
+                        </div>
+                        <div class="singel_item" id="ui">
+                            <a  onclick="ui()">UI / UX</a>
+                        </div>
+                        <div class="singel_item" id="grap">
+                            <a  onclick="grap()">Graphics Design</a>
+                        </div>  </div>
+                <div class="items_area" id="items">
+                 
+                    <div class="gallery_item">
+                        <img src="img/buzgari.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/bdj.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/FixNinja.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/foodcreaft.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/Untitled-3.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/jonesv01.jpg" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/sbrv2.jpg" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/testdemo.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/chaadda.png" alt="">
+                    </div>
+
+                </div>
+              
+          
+                </div>
+               
+             
+            </div>
+               
+
+        </div>
+      </section>
+ 
+<script>
+   
+function web(){
+    
+    document.getElementById('items').innerHTML=`
+    <div class="gallery_item">
+                        <img src="img/buzgari.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/bdj.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/logo.png" alt="">
+                    </div>
+    
+    
+    `;
+  setTimeout(() => { }, 2000);
+}
+
+function app(){
+    document.getElementById('items').innerHTML=`
+    <div class="gallery_item">
+                        <img src="img/buzgari.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/bdj.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/FixNinja.png" alt="">
+                    </div>
+    
+    
+    `;
+    setTimeout(() => { }, 2000);
+}
+function ui(){
+    document.getElementById('items').innerHTML=`
+    <div class="gallery_item">
+                        <img src="img/buzgari.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/bdj.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/FixNinja.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/FixNinja.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/shastho.jpg" alt="">
+                    </div>
+    
+    
+    `;
+    setTimeout(() => { }, 2000);
+}
+
+function grap(){
+    document.getElementById('items').innerHTML=`
+    <div class="gallery_item">
+                        <img src="img/foodcreaft.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/Untitled-3.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/jonesv01.jpg" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/sbrv2.jpg" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/testdemo.png" alt="">
+                    </div>
+                    <div class="gallery_item">
+                        <img src="img/chaadda.png" alt="">
+                    </div>
+    
+    
+    `;
+    setTimeout(() => { }, 2000);
+}
+   
+    
+  function data(msg){
+    setTimeout(() => { document.getElementById('expartis').innerText=msg}, 2000);
+  }
+
+
+//console.log("Goodbye!");
+</script>
+</body>
+
+</html>

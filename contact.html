@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Port</title>
+
+</head>
+
+<body class="port_header_area">
+    <header>
+
+
+      
+            <div class="container"> 
+              
+                <div class="heads_items">
+                    <div class="logo_area">
+                        <h2>Logo <span>Img</span></h2>
+                    </div>
+                    <div class="menu_area">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Portfolio</a></li>
+                           
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+           
+        </div>
+
+
+
+    </header>
+ 
+      <section>
+        <div class="body_content">
+
+           
+                <!-- <div class="imgs_area">
+                    <img src="img/my-bg1.png" alt="">
+                </div> -->
+                <div class="container">
+                
+                <div class="form_area">
+                    <form action="" method="">
+                        <p>If you have any Query Just inbox me!</p>
+                       <p>
+                        <label for="">Full Name</label><br>
+                        <input type="text" name="fullname" placeholder="Enter your Fullname"  >
+                       </p>
+                        
+                       <p>
+                        <label for="">Email</label><br>
+                        <input type="text" name="email" placeholder="Enter your Email"  >
+                       </p>
+                       <p>
+                        <label for="">Message</label><br>
+                        <textarea type="textarea" name="msg" placeholder="Message"> </textarea>
+                       </p>
+                       <input type="submit" value="Submit">
+                    </form>
+                </div>
+             
+            </div>
+               
+
+        </div>
+      </section>
+ 
+<script>
+   
+loping();
+  function loping(){
+    setTimeout(() => { 
+        data("Portfolio");
+    
+    }, 4000);
+    setTimeout(() => { 
+        data("Mobile");
+    console.log("mobile");
+    }, 4000);
+    setTimeout(() => { 
+        data("Application");
+    console.log("Application");
+    }, 6000);
+    setTimeout(() => { 
+        data("Developer");
+    console.log("Application");
+    }, 8000);
+    
+    setTimeout(() => { 
+        loping()
+    }, 8000);
+    
+  }
+ 
+   
+   
+    
+  function data(msg){
+    setTimeout(() => { document.getElementById('expartis').innerText=msg}, 2000);
+  }
+
+
+//console.log("Goodbye!");
+</script>
+</body>
+
+</html>
